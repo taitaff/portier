@@ -1,0 +1,295 @@
+@media screen and (max-width: 1320px) {
+    .textblock h1{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 86px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+
+    #mouse{display: none;}
+    #mouse2{display: block;}
+    #computer{display: none;}
+    #computer2{display: block;}
+
+    #facts{
+        display:flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    #getintouch{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        gap: 24px;
+    }
+}
+@media screen and (max-width: 1078px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1260px;
+        margin: 0 auto;
+        gap: 200px;
+    }
+    .factinfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 360px;
+        align-items: center;
+        width: 100%;
+    }
+    .txtblock{
+        width: 388px;
+        height: 344px;
+    }
+    #ratings{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .txtblock1{
+        display: flex;
+        flex-direction: column;
+        max-width: 531px;
+        max-height: 675px;
+        justify-content: space-between
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 100px;
+        padding-left: 90px;
+        padding-bottom: 120px;
+        padding-right: 90px;
+        gap: 32px;
+        background: #222233;
+    }
+}
+@media screen and (max-width: 970px) {
+    #t{
+        width: 26.55px;
+        height: 32.27px;
+    }
+    #main{
+        gap: 140px;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 120px;
+    }
+    nav{
+        display: none;
+    }
+    #mobilemenubtn{
+        border: none;
+        display: grid;
+        background: #222233;
+        width: 26px;
+        height: 18px;
+    }
+    .worksbtn{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .picture_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .txtblock {
+        width: 100%;
+        height: 300px;
+    }
+    #mouse2{display: none;}
+    #mouse3{display: block;}
+    #computer2{display: none;}
+    #computer3{display: block;}
+
+    .factinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+        align-items: center;
+        width: 100%;
+    }
+    #facts {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    .contactme{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+        width: 508px;
+        margin-bottom: 120px;
+    }
+    #ratings{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+    .txtblock1{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .workcard{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        height: 260px;
+        max-width: 508px;
+        background-image: url(../img/WorkCard1.png);
+        border-radius: 8px;
+    }
+    .infotable{
+        padding: 10px 15px;
+        gap: 10px;
+        width: 276px;
+        height: 68px;
+        left: 0px;
+        top: 192px;
+        background: #222233;
+        border-radius: 0px 8px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1260px;
+        margin: 0 auto;
+        gap: 90px;
+    }
+    #padding{
+        padding-top: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    #hirebtn{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        width: 100%;
+        height: 52px;
+        background: #006ADA;
+        border: none;
+        border-radius: 8px;
+        margin-top: 32px;
+        cursor: pointer;
+    }
+    ul li{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .textblock h1{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    .textblock p{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #88888D;
+    }
+    h2{
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+    }
+    .factinfo{
+        align-items: flex-start;
+    }
+    .columninfo{
+        width: 100%;
+    }
+    .commentcard{
+        width: 350px;
+        height: 240px;
+    }
+    .txtblock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        max-width: 100%;
+        height: 296px;
+    }
+    #getintouch{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 24px;
+    }
+    .contactme{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    #howabout{width: 100%;}
+    footer{
+        padding-top: 50px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 45px;
+        gap: 48px;
+    }
+    .horizontalinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        width: 100%;
+    }
+    .navfooter{display: none;}
+    .navfooter-adaptive{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+}
