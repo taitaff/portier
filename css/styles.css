@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
+@keyframes attention{
+    from {left: 0px;}
+    to {left: 10px; background: #57EFB4; color: black;}
+}
 body{
     background: #12121C;
 }
@@ -64,6 +67,7 @@ nav{
     color: white;
 }
 #GetTemp{
+    transition: background 0.5s, color 0.5s, font-size 0.5s;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -403,6 +407,8 @@ p{
     gap: 24px;
 }
 #getintouch-btn{
+    animation: attention 0.5s infinite alternate;
+    position: relative;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -416,6 +422,9 @@ p{
     background: #006ADA;
     border-radius: 8px;
     cursor: pointer;
+}
+#getintouch-btn:hover{
+    animation-play-state: paused;
 }
 #howabout{
     width: 508px;
@@ -471,6 +480,7 @@ footer{
     width: 200px;
 }
 .linkbtn{
+    transition: background 0.5s ease-out;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -480,9 +490,15 @@ footer{
     border: none;
     background: #222233;
     border-radius: 50%;
+    cursor: pointer;
 }
 .linkbtn:hover{
-    background: #57EFB4;
+    background: #57efb4;
+}
+.linkbtn:active{
+    transform: scale(6, 0.5);
+    transition-property: transform;
+    transition-duration: 9s;
 }
 .navfooter-adaptive{
     display: none;
