@@ -89,6 +89,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .textblock{
     display: flex;
@@ -195,6 +196,9 @@ nav{
     align-items: center;
     width: 100%;
     gap: 80px;
+}
+.kartinka {
+    display: none;
 }
 .workcard{
     display: flex;
@@ -502,4 +506,20 @@ footer{
 }
 .navfooter-adaptive{
     display: none;
+}
+.worksbtn2{
+    display: none;
+    border: none;
+    width: 44px;
+    height: 44px;
+    background: #222233;
+    border-radius: 8px;
+}
+.worksbtn3{
+    display: none;
+    border: none;
+    width: 44px;
+    height: 44px;
+    background: #222233;
+    border-radius: 8px;
 }
